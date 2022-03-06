@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Bite</title>
+    <style>
+        
+        body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #F4E1D5;
+        background-image: url("imagenes/Background\ Pattern.png")
+        }
+    .logo{
+    padding-left: 42%;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        background-color: #7712008e;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+   
+    div{
+        margin: 5px;
+        padding: 20px;
+        color:#ffffff
+        
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    
+    .formulario{
+        text-align: center;
+        align-self:flex-end;
+        flex:none;
+        flex-basis:100%;
+    }
+    .titulo{
+        text-align: center;
+        flex:none;
+        flex-basis:100%;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        text-decoration:underline;
+    }
+
+    </style>
+</head>
+
+<body>
+    
+   <header class="logo">
+        <img src="/imagenes/Cake Bite-logos2.jpg" alt="Logo">
+   </header>
+ 
+       
+    
+ <section class="container">
+
+            <div class="titulo">
+                <h1>Armado de pastel</h1>
+            </div>
+
+            <div>
+                <h3>Bases a escoger $100 c/u</h3>
+                <img src="/imagenes/pastel-chocolate2.jpg" alt="Base chocolate" width="200px"><br>
+                <input type="radio" name="bases" id="chocolate">
+                <label for="chocolate">Chocolate</label><br><br>
+           
+                <img src="/imagenes/pastel-vainilla.jpg" alt="Base vainilla" width="200px"><br>
+                <input type="radio" name="bases" id="vainilla">
+                <label for="vainilla">Vainilla</label><br><br>
+            </div>
+
+            
+
+            <div>
+                <h3>Rellenos a escoger</h3>
+                <img src="/imagenes/mermelada_de_fresa.jpg" alt="Mermelada de fresa"  width="200" height="100"><br>
+                <input type="checkbox" id="fresa" name="fresa" value="fresa">
+                <label for="fresa">Relleno de fresa $50</label><br><br>
+            
+                <img src="/imagenes/zarzamora.jpg" alt="Mermelada de zarzamora"  width="200" height="100"><br>
+                <input type="checkbox" id="zarzamora" name="zarzamora" value="zarzamora">
+                <label for="zarzamora">Relleno de zarzamora $50</label><br><br>
+          
+                <img src="imagenes/cacahuate.jpeg" alt="Crema de cacahuate"  width="200" height="100"><br>
+                <input type="checkbox" id="cacahuate" name="cacahuate" value="cacahuate">
+                <label for="cacahuate">Relleno de crema de cacahuate $70</label><br><br>
+            </div>
+
+
+            <div>
+                <h3>Toppings a escoger</h3>
+                <img src="/imagenes/Chocolate-topping.jpg" alt="topping-chocolate" width="200" height="100"><br>
+                <input type="checkbox" id="topping-chocolate" name="topping-chocolate" value="topping-chocolate">
+                <label for="topping-chocolate">Chocolate $50</label><br>
+
+                <img src="/imagenes/frutos-rojos.jpg" alt="frutos rojos" width="200" height="100"><br>
+                <input type="checkbox" id="frutos-rojos" name="frutos-rojos" value="frutos-rojos">
+                <label for="frutos-rojos">Frutos rojos $100</label><br><br>
+            </div>
+            
+            <div class="formulario">
+                <big> <a  href="Formulario.html">Comprar</a></big>
+              </div>
+        </section>
+
+       
+        
+   
+</body>
+</html>
